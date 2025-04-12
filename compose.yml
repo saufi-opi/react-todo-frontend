@@ -1,9 +1,5 @@
 services:
   webapp:
-    build:
-      context: .
-      dockerfile: Dockerfile
-      args:
-        VITE_API_URL: "http://api:8080"
+    image: ghcr.io/saufi-opi/react-todo-frontend:latest
     ports:
       - "8081:80"

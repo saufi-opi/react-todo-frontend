@@ -66,7 +66,7 @@ function App() {
 
   return (
     <main>
-      <h1>Todo List</h1>
+      <h1>SapKok 😎</h1>
       <form onSubmit={handleAddTodo}>
         <input
           type="text"
